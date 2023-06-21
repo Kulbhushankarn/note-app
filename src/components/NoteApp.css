@@ -50,10 +50,13 @@ textarea {
 button {
   padding: 10px 20px;
   border-radius: 20px;
-  background-color: #4caf50;
+  background-color: #0d8bf0;
   color: white;
   border: none;
   cursor: pointer;
+}
+button:hover{
+  background-color: #45a049;
 }
 
 /* .search-container,
@@ -122,7 +125,7 @@ button {
 }
 
 .modal button {
-  background-color: #4caf50;
+  background-color: #0d8bf0;
   color: white;
   border: none;
   padding: 8px 16px;
