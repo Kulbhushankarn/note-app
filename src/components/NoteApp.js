@@ -94,7 +94,7 @@ const NoteApp = () => {
   return (
     <div className="note-app">
       <nav className="navbar">
-        <h2>Note Making App</h2>
+        <h2>Note Taking</h2>
       </nav>
       <br />
       <div className="search-sort-container">
@@ -175,6 +175,10 @@ const NoteApp = () => {
         <h3>{selectedNote?.title}</h3>
         <p>{selectedNote?.body}</p>
       </Modal>
+      <footer className="footer">
+        <p>© {new Date().getFullYear()} Note Making App. All rights reserved.</p>
+        <p>Developed By Kulbhushan</p>
+      </footer>
     </div>
   );
 };
